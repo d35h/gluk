@@ -6,22 +6,19 @@
 ;;;
 ;;;; Macroses ;;;;
 ;;;; Code ;;;;;
-(defun main (arg1 arg2 arg3 arg4) ;#главная функция, аля int main() 
-)
-;;;
-(defun select-filetype () ;#функ-ция распознования типа файла
+(defun switch-filetype (file filetype ftversion) ;#функ-ция распознования типа файла
 )
 ;;; 
-(defun open-doc () ;#функция для открытия .doc файлов
+(defun open-doc (file) ;#функция для открытия .doc файлов
 )
 ;;;
-(defun open-docx () ;#функция для открытия .docx файлов
+(defun open-docx (file) ;#функция для открытия .docx файлов
 )
 ;;;
-(defun open-txt () ;#функция для открытия .txt файлов
+(defun open-txt (file) ;#функция для открытия .txt файлов
 )
 ;;;
-(defun split-to-blocks () ;#функция для разбивки текста на блоки из предложений
+(defun split-to-blocks (text) ;#функция для разбивки текста на блоки из предложений
 )
 ;;;
 (defun get-sentence () ;#функция для захвата предложения
@@ -37,4 +34,8 @@
 )
 ;;;
 (defun _export-to-txt () ;#функция экспорта в .txt
+)
+;;;
+(defun main (arg1 arg2 arg3 arg4) ;#главная функция, аля int main() 
+(switch-filetype(arg1 arg2 arg3)) ;#
 )
