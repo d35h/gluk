@@ -1,3 +1,11 @@
+;;;;; Variables ;;;;;
+(defvar *tmpblock* nil) ;#глобальная переменная для временого хранения блоков текста
+(defvar *intputtext* nil) ;#буффер в который будет писаться обработаный текст
+;;;
+;;;
+;;;
+;;;; Macroses ;;;;
+;;;; Code ;;;;;
 (defun main (arg1 arg2 arg3 arg4) ;#главная функция, аля int main() 
 )
 ;;;
