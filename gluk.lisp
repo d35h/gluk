@@ -37,5 +37,5 @@
 )
 ;;;
 (defun main (arg1 arg2 arg3 arg4) ;#главная функция, аля int main() 
-(switch-filetype(arg1 arg2 arg3)) ;#
+       (switch-filetype(arg1 arg2 arg3)) ;#
 )
